@@ -1,0 +1,7 @@
+
+.center{
+    display: flex;
+}
+.labname{
+    flex: 0.7;
+}

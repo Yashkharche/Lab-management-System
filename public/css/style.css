@@ -1,0 +1,133 @@
+/* --------------------------------------------navbar------------------------------------------------ */
+
+
+a:link{
+    text-decoration: none;
+    list-style: none;
+}
+
+.lablogo img{
+    border: 0px;
+    height: 100px;
+    width: 100px;
+    background:transparent;
+}
+.liitem li{
+    display: inline-block;
+    margin:0px 20px;
+    color: white;
+}
+.liitem li a{
+    color:black;
+}   
+
+.active{
+    border-bottom: 2px solid green;
+    width: 30%;
+
+
+}
+.home{
+    background-image: url('../photos/pexels-edward-jenner-4031321\ \(1\).jpg');
+    background-image: linear-gradient();
+    filter: brightness(70%);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+   
+    
+}
+
+.hero{
+    margin-left: 10%;
+    margin-top:150px;
+    color:rgb(51, 51, 129);
+}
+.user{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color:rgb(43, 39, 39);
+    color: rgb(192, 183, 183);
+}
+.dashboard-icon{
+    margin-bottom: 60px;
+}
+
+.underline{
+  border-bottom: 4px solid orange;
+  width:7%;
+  margin-bottom: 10px;
+  /* padding-top: 5px; */
+}
+.last-row img{
+    width: 30px;
+    height: 40px;
+}
+.about{
+    margin-top: 60px;
+}
+.col-lg-4 p{
+    text-align: justify;
+}
+
+.photo img{
+    height: 500px;
+    width: 800px;
+
+}
+.image1{
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.dashboard-icon{
+    text-align: center;
+}
+.fewwords-aboutus{
+    margin-top: 40px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    background-color:rgb(43, 39, 39); 
+    color: white;
+}
+.last-about{
+    margin-left: 20%;
+}
+.last-about2{
+    margin-left: 0;
+    margin-right: 50px;
+}
+.contact{
+    margin-top: 50px;
+}
+.contact-format{
+    display: flex;
+    margin: 30px;
+}
+.contact-info{
+    margin-left: 40px;
+}
+.footer{
+    position: absolute;
+    background-color: rgb(43, 39, 39);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+/* @media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+} */
